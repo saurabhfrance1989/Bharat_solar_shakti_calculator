@@ -17,6 +17,7 @@ battery_dict = dict(zip(battery_prices["Brand"], battery_prices["PricePerkWh"]))
 # Streamlit Page Setup
 # -----------------------------
 st.set_page_config(page_title="Solar Quotation - Bharat Solar Shakti",  layout="wide")
+st.image("logo.png", width=120)  # <-- Add this line here
 
 # Branding
 st.markdown("<h1 style='text-align: center; color: #FF9900;'> Bharat Solar Shakti Pvt Ltd</h1>", unsafe_allow_html=True)
